@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ecommerce</title>
+</head>
+<body>
+    <div class="rect">
+    <nav class="navbar">
+        <div class="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="left-side">
+            <div class="categories">
+            <ul class="nav-links">
+                <li class="men"><a href="#">MEN</a></li>
+                <li class="men"><a href="#">WOMEN</a></li>
+                <li class="men"><a href="#">KIDS</a></li>
+                <li class="men"><a href="#">BEAUTY</a></li>
+                <li class="men"><a href="#">LIVING</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="search">
+            <input  class="search-child" type="text" id="search-input" placeholder="Search" onkeyup="filterProducts()"  />       
+          </div>
+        <div id="product-container" >
+        </div> 
+        <div class="right-side">
+            <button class="login-button">Log In</button>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </nav>
+    </div>
+    <div class="Uproduct-container">
+        <div class="Uproduct"><img src="https://img.freepik.com/premium-photo/young-man-wearing-winter-clothes-street_1139-1392.jpg?size=626&ext=jpg&uid=R80763454&ga=GA1.2.1596815926.1673784877&semt=ais" alt="Image 1"></div>
+        <div class="Uproduct"><img src="https://img.freepik.com/free-photo/happy-lady-stylish-skirt-boater-posing-pink-wall_197531-23653.jpg?size=626&ext=jpg&uid=R80763454&ga=GA1.2.1596815926.1673784877&semt=ais" alt="Image 1"></div>
+        <div class="Uproduct"><img src="https://img.freepik.com/free-photo/full-shot-kids-posing-together_23-2149853383.jpg?size=626&ext=jpg&uid=R80763454&ga=GA1.2.1596815926.1673784877&semt=ais" alt="Image 1"></div>
+        <div class="Uproduct"><img src="https://img.freepik.com/free-photo/close-up-collection-make-up-beauty-products_23-2148620012.jpg?size=626&ext=jpg&uid=R80763454&ga=GA1.2.1596815926.1673784877&semt=ais" alt="Image 1"></div>
+        <div class="Uproduct"><img src="https://img.freepik.com/premium-psd/pair-stylish-shoes-3d-rendering-isolated_1401-2682.jpg?size=626&ext=jpg&uid=R80763454&ga=GA1.2.1596815926.1673784877&semt=sph " alt="Image 1"></div>
+        <div class="Uproduct"><img src="https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2224.jpg?size=626&ext=jpg&uid=R80763454&ga=GA1.2.1596815926.1673784877&semt=ais" alt="Image 1"></div>
+      
+    </div>
+    <h1 class="offers-title" style="text-align: center; margin-top: 80px;height: 60px;align-items: center; top: 50%; padding: 10px;">Discover Savings, Shop Smart</h1>
+    <div class="offers-container">
+        <div class="product-container">
+        <div class="offer-card" style="border-radius: 20px;"><img src="https://media.centrepointstores.com/i/centrepoint/SP_Offers_Block09MAR18.jpg" alt="Image 1"></div>
+        <div class="offer-card" style="border-radius: 20px;"><img src="https://media.centrepointstores.com/i/centrepoint/SP_Offers_Block01MAR18.jpg" alt="Image 1"></div>  </div>
+   
+    <section class="product-section">
+        <h1 class="product-heading" style="color: rgb(248, 70, 100);  ">Featured Products</h1>
+        <div id="product-cards" style="z-index: 0;text-align: center;">
+          
+        </div>
+    </section>
+    <section class="client-section">
+        <h2 class="client-heading" style="text-align: center; color: rgb(248, 70, 100);" >Our Clients</h2>
+        <div class="client-logos">
+            <img src="01.jpg" alt="Client 1">
+            <img src="02.jpg" alt="Client 2">
+            <img src="03.jpg" alt="Client 3">
+            <img src="04.jpg" alt="Client 4">
+            <img src="05.jpg" alt="Client 5">
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+               
+                <h3>Corel</h3>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
